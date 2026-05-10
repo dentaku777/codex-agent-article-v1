@@ -7,6 +7,7 @@
 作業前に必ず以下のルールを確認してください。
 
 - `rules/visual_asset_policy.md`
+- `rules/content_quality_manual_policy.md`
 - `rules/hallucination_policy.md`
 
 出力先：
@@ -26,6 +27,7 @@
 - 画像生成用プロンプト
 - 代替テキスト
 - 更新リスク
+- アイキャッチ、案件一覧図解、目的別結論、選定基準、アンケート結果、比較表強化、独自検証・体験のいずれに該当する画像か
 
 注意：
 

@@ -7,6 +7,7 @@
 作業前に必ず以下のルールを確認してください。
 
 - `rules/reference_article_policy.md`
+- `rules/content_quality_manual_policy.md`
 - `rules/output_format.md`
 
 出力先：
@@ -30,6 +31,7 @@
 - 記事の独自性
 - 自記事に取り入れるべき汎用パターン
 - そのまま模倣してはいけない表現・構成
+- `rules/content_quality_manual_policy.md` に記載された手本記事パターンとの共通点・差分
 
 注意：
 

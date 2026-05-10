@@ -15,6 +15,7 @@
 作業前に必ず以下のルールを確認してください。
 
 - `rules/reference_article_policy.md`
+- `rules/content_quality_manual_policy.md`
 - `rules/evaluation_guideline_policy.md`
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
@@ -43,6 +44,7 @@
 - 実質月額の計算方針
 - 外部リンクを入れる候補箇所
 - 各セクションの出典要件
+- 各h2/h3で使う一次情報・独自情報・著者コメント・図解・比較表・引用・外部リンク・リスト・アコーディオン・注釈の配置方針
 
 注意：
 
@@ -50,6 +52,7 @@
 - 各見出しに「参照すべき research.md / survey_analysis.md の項目」を指定する
 - `selected_products.md` が未作成または未確定の場合は、構成作成を開始しない
 - 評価対象の商品・サービスは `selected_products.md` に記載されたものを前提にする
+- タイトルと構成は検索意図を広げすぎず、上から読んで商品・サービスを迷わず選べるストーリーにする
 
 ## 追加前提
 

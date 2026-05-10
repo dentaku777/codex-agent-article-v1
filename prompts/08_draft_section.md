@@ -7,6 +7,7 @@
 作業前に必ず以下のルールを確認してください。
 
 - `rules/source_priority.md`
+- `rules/content_quality_manual_policy.md`
 - `rules/factcheck_policy.md`
 - `rules/hallucination_policy.md`
 - `rules/evaluation_guideline_policy.md`
@@ -28,6 +29,8 @@
 - 読者にわかりやすく、自然な日本語で書く
 - ランキングやおすすめ理由を書く場合は評価軸との対応を明記する
 - PR表記や注意書きが必要な箇所は本文中に入れる
+- 可能な限り、各h2/h3でアンケート、著者コメント、図解、表、比較表、引用、外部リンク、リスト、アコーディオン、注釈のうち3種類以上を組み合わせる
+- 結論・選び方・案件紹介では、アンケート結果や著者の実体験コメントを文脈に合わせて入れる
 
 出力先：
 `articles/<slug>/draft/`
