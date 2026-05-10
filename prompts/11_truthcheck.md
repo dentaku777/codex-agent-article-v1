@@ -9,6 +9,7 @@
 - `rules/hallucination_policy.md`
 - `rules/factcheck_policy.md`
 - `rules/source_priority.md`
+- `rules/evaluation_guideline_policy.md`
 
 出力先：
 `articles/<slug>/truthcheck_report.md`
@@ -40,3 +41,8 @@
 
 - 少しでも根拠が弱い場合はOKにしない
 - 修正できない事実は削除または未確認表記にする
+
+## 評価ガイドライン確認
+
+- `evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が矛盾していないか確認する
+- 評価ガイドラインにない評価理由や出典のない加点根拠は `要修正` または `要削除` とする

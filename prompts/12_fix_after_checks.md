@@ -9,6 +9,7 @@
 - `rules/source_priority.md`
 - `rules/factcheck_policy.md`
 - `rules/hallucination_policy.md`
+- `rules/evaluation_guideline_policy.md`
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
@@ -29,3 +30,8 @@
 
 - 公式確認できない料金・条件・キャンペーンは断定しない
 - 修正できなかった項目は本文中または作業メモに `未解決` として残す
+
+## 評価ガイドラインとの整合
+
+- ランキング順位、評価理由、点数、同点処理は `evaluation_guideline.md` と一致するように修正する
+- `evaluation_guideline.md` にない評価軸や加点根拠は追加しない

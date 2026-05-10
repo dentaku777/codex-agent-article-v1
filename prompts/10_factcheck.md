@@ -16,6 +16,7 @@
 - research.md
 - survey_analysis.md
 - selected_products.md
+- evaluation_guideline.md
 - merged_article.md
 - draft/*.md
 - 表
@@ -56,3 +57,8 @@
 - ファクトチェックでは本文を直接修正せず、修正案を出す
 - 公式サイトで確認できない情報はOKにしない
 - 表と本文の数値が一致しない場合は必ず要修正にする
+
+## 評価ガイドライン確認
+
+- `evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が一致しているか確認する
+- 評価ガイドラインにない加点理由や順位根拠が本文に出ている場合は `要修正` とする

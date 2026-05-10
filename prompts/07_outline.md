@@ -8,12 +8,14 @@
 `survey_analysis.md`
 `research.md`
 `selected_products.md`
+`evaluation_guideline.md`
 
 を読み、50,000文字程度の記事構成を作成してください。
 
 作業前に必ず以下のルールを確認してください。
 
 - `rules/reference_article_policy.md`
+- `rules/evaluation_guideline_policy.md`
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/survey_policy.md`
@@ -48,3 +50,8 @@
 - 各見出しに「参照すべき research.md / survey_analysis.md の項目」を指定する
 - `selected_products.md` が未作成または未確定の場合は、構成作成を開始しない
 - 評価対象の商品・サービスは `selected_products.md` に記載されたものを前提にする
+
+## 追加前提
+
+- `selected_products.md` と `evaluation_guideline.md` が未作成・未確定の場合は、構成作成を開始しない
+- ランキング評価軸、配点、同点時の順位決定ルールは `evaluation_guideline.md` を前提にする

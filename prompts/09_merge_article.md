@@ -9,6 +9,7 @@
 - `rules/source_priority.md`
 - `rules/factcheck_policy.md`
 - `rules/hallucination_policy.md`
+- `rules/evaluation_guideline_policy.md`
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
@@ -31,3 +32,8 @@
 - 新しい事実をこの工程で追加しない
 - 料金、キャンペーン、条件、スペックは `research.md` にない内容を断定しない
 - 結合後の記事を最終成果物にしない
+
+## 評価ガイドライン参照
+
+- ランキング、評価理由、スコア、同点処理は `evaluation_guideline.md` と矛盾しないように統合する
+- 下書き間で評価軸の名称や点数表記が揺れている場合は、`evaluation_guideline.md` に合わせる

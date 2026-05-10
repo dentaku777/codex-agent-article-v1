@@ -9,6 +9,7 @@
 - `rules/source_priority.md`
 - `rules/factcheck_policy.md`
 - `rules/hallucination_policy.md`
+- `rules/evaluation_guideline_policy.md`
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/survey_policy.md`
@@ -30,3 +31,8 @@
 
 出力先：
 `articles/<slug>/draft/`
+
+## 評価ガイドライン参照
+
+- ランキング順位、評価理由、総合点、指標別点数を書く場合は `evaluation_guideline.md` の採点基準と一致させる
+- `evaluation_guideline.md` にない評価軸や加点理由を本文で追加しない

@@ -7,6 +7,7 @@
 作業前に必ず以下のルールを確認してください。
 
 - `rules/source_priority.md`
+- `rules/web_fetch_policy.md`
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
 - `rules/external_link_policy.md`
@@ -23,6 +24,7 @@
 - 読者が比較したい項目
 - 比較対象サービス候補
 - 公式料金表・約款・キャンペーンページのURL
+- Webフェッチで取得した公式ページ本文、PDF、重要事項説明、FAQ、サポートページ
 
 出力先：
 `articles/<slug>/research.md`
@@ -36,6 +38,8 @@
 
 | 項目 | 内容 | 出典URL | 確認日 | 備考 |
 |---|---|---|---|---|
+
+Web検索APIや検索結果ページで見つけた情報は、公式ページまたは一次情報ページを直接取得してから記録する。検索APIのスニペットだけを根拠にしない。
 
 注意：
 
