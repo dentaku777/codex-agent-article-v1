@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+.cache/
+tmp/
+dist/
+build/
+
+# article temporary files
+articles/**/tmp/
+articles/**/raw/
+articles/**/screenshots/
