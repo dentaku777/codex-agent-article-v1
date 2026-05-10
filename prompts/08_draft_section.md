@@ -14,6 +14,7 @@
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/survey_policy.md`
+- `rules/faq_policy.md`
 - `rules/external_link_policy.md`
 - `rules/affiliate_pr_policy.md`
 - `rules/output_format.md`
@@ -29,6 +30,8 @@
 - 読者にわかりやすく、自然な日本語で書く
 - ランキングやおすすめ理由を書く場合は評価軸との対応を明記する
 - PR表記や注意書きが必要な箇所は本文中に入れる
+- FAQ/Q&Aを書く場合は `phase05_faq_candidates.md` の採用方針、公式確認状況、出典URL、回答の断定可否に従う
+- 競合記事由来のFAQ回答を根拠にせず、公式情報または公的情報で確認できる範囲で回答する
 - 可能な限り、各h2/h3でアンケート、著者コメント、図解、表、比較表、引用、外部リンク、リスト、アコーディオン、注釈のうち3種類以上を組み合わせる
 - 結論・選び方・案件紹介では、アンケート結果や著者の実体験コメントを文脈に合わせて入れる
 

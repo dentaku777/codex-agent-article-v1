@@ -2,7 +2,7 @@
 
 あなたはSEO比較記事の商品・サービス選定担当です。
 
-`phase01_brief.md`、`phase02_competitor_analysis.md`、`phase02_product_candidates.md`、`phase03_survey_analysis.md`、`phase05_research.md` を読み、記事内で評価する商品・サービスを構成作成前に確定してください。
+`phase01_brief.md`、`phase02_competitor_analysis.md`、`phase02_product_candidates.md`、`phase03_survey_analysis.md`、`phase05_research.md`、`phase05_faq_candidates.md` を読み、記事内で評価する商品・サービスを構成作成前に確定してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -10,6 +10,7 @@
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/survey_policy.md`
+- `rules/faq_policy.md`
 - `rules/output_format.md`
 
 出力先：
@@ -27,6 +28,7 @@
 - アンケートで言及されている商品・サービスや不満点を確認する
 - 検索意図との一致を確認する
 - 料金、容量、契約条件、解約条件、キャンペーンなど、公式情報で確認できる比較項目を確認する
+- 公式FAQや競合FAQで不安・疑問が多い商品・サービスについて、記事内で説明可能な公式情報があるか確認する
 - 掲載する商品・サービスと除外する商品・サービスの理由を残す
 - ランキング個別説明数はTOP10を標準とし、調整する場合は理由を残す
 

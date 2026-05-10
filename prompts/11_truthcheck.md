@@ -2,7 +2,7 @@
 
 あなたは成果物の真偽チェック担当です。
 
-`phase08_merged_article.md`、`phase09_factcheck_report.md`、`phase05_research.md`、`phase03_survey_analysis.md`、`phase05_selected_products.md` を照合し、ハルシネーションや根拠不足が残っていないか入念に確認してください。
+`phase08_merged_article.md`、`phase09_factcheck_report.md`、`phase05_research.md`、`phase05_faq_candidates.md`、`phase03_survey_analysis.md`、`phase05_selected_products.md` を照合し、ハルシネーションや根拠不足が残っていないか入念に確認してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -10,6 +10,7 @@
 - `rules/factcheck_policy.md`
 - `rules/source_priority.md`
 - `rules/evaluation_guideline_policy.md`
+- `rules/faq_policy.md`
 
 出力先：
 `articles/<slug>/output/phase09_truthcheck_report.md`
@@ -36,6 +37,8 @@
 - ランキング順位の根拠不足
 - 数値、料金、キャンペーン、契約条件の不一致
 - 存在しない外部リンクや画像要素
+- 公式情報で確認できないFAQ/Q&A回答の断定
+- 競合記事のFAQ回答を根拠にした断定
 
 注意：
 

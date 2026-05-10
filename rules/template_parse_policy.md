@@ -36,6 +36,7 @@ WordPressブロックエディタに貼り付け可能なHTML/ブロックコー
 
 ## 品質確認
 
-- `phase09_fixed_article.md`、`phase09_factcheck_report.md`、`phase09_truthcheck_report.md` を確認してから変換する
+- `phase09_fixed_article.md`、`phase09_factcheck_report.md`、`phase09_truthcheck_report.md`、`phase05_faq_candidates.md` を確認してから変換する
 - 未確認情報、要修正、要削除が残る場合は変換前に警告する
 - 表、本文、画像仕様、CTAの数値や順位を一致させる
+- FAQ/Q&Aは採用方針、公式確認状況、出典要件に反する回答が残っていないか確認する

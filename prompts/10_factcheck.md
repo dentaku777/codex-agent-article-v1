@@ -12,8 +12,10 @@
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
+- `rules/faq_policy.md`
 
 - phase05_research.md
+- phase05_faq_candidates.md
 - phase03_survey_analysis.md
 - phase05_selected_products.md
 - phase06_evaluation_guideline.md
@@ -51,6 +53,8 @@
 - 外部リンクの妥当性
 - 比較表と本文の整合性
 - phase05_selected_products.md と本文内ランキング対象の一致
+- FAQ/Q&Aの回答が `phase05_faq_candidates.md` の採用方針、公式確認状況、出典URLと一致しているか
+- 競合記事由来のFAQ回答を一次情報のように扱っていないか
 
 注意：
 

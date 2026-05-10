@@ -8,6 +8,7 @@
 - `rules/content_quality_manual_policy.md`
 - `rules/factcheck_policy.md`
 - `rules/hallucination_policy.md`
+- `rules/faq_policy.md`
 - `rules/output_format.md`
 
 ## 入力
@@ -20,6 +21,7 @@
 - `xx.memo/manual/manual.md`
 - `articles/<slug>/output/phase06_evaluation_guideline.md`
 - `articles/<slug>/output/phase05_research.md`
+- `articles/<slug>/output/phase05_faq_candidates.md`
 - `articles/<slug>/output/phase03_survey_analysis.md`
 - `articles/<slug>/output/phase04_x_post_research.md`（実施した場合）
 
@@ -30,6 +32,8 @@
 ## 必須観点
 
 - SEO観点で検索意図、網羅性、比較軸、FAQ、内部導線、外部リンクが十分か
+- FAQ/Q&Aが競合記事の頻出論点、公式FAQ、アンケート上の不安、検索意図を踏まえて選定されているか
+- FAQ/Q&Aの回答が公式情報または公的情報で確認できる範囲に限定されているか
 - AIO観点で結論、根拠、比較表、要約しやすさが十分か
 - 競合記事と比べた優位性、独自性、情報鮮度
 - 常設制作標準と比べて劣っている点

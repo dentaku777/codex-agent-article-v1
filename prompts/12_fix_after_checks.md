@@ -13,6 +13,7 @@
 - `rules/ranking_policy.md`
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
+- `rules/faq_policy.md`
 
 出力先：
 `articles/<slug>/output/phase09_fixed_article.md`
@@ -25,10 +26,12 @@
 - `未確認` の箇所は未確認のまま断定しない
 - 表と本文の数値を一致させる
 - ランキング理由と評価軸の対応を維持する
+- FAQ/Q&Aは `phase05_faq_candidates.md` の採用方針、出典URL、回答の断定可否に合わせて修正する
 
 注意：
 
 - 公式確認できない料金・条件・キャンペーンは断定しない
+- 公式確認できないFAQ回答は、削除、未確認表記、または確認できる範囲の回答に修正する
 - 修正できなかった項目は本文中または作業メモに `未解決` として残す
 
 ## 評価ガイドラインとの整合
