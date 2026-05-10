@@ -4,8 +4,8 @@
 
 ## 作成タイミング
 
-- `selected_products.md` で評価対象の商品・サービスが確定した後に作成する
-- `outline.md` 作成前に `evaluation_guideline.md` を確定する
+- `phase05_selected_products.md` で評価対象の商品・サービスが確定した後に作成する
+- `phase07_outline.md` 作成前に `phase06_evaluation_guideline.md` を確定する
 - 評価ガイドラインが未確定の場合、構成作成・本文作成・ランキング順位確定に進まない
 
 ## 評価指標
@@ -28,7 +28,7 @@
 
 ## 必須項目
 
-`evaluation_guideline.md` には以下を含める。
+`phase06_evaluation_guideline.md` には以下を含める。
 
 - 記事名、主キーワード、作成日、対象商材
 - 評価対象サービス一覧
@@ -43,8 +43,8 @@
 
 ## PDF出力
 
-- まずMarkdown形式で `articles/<slug>/evaluation_guideline.md` を作成する
+- まずMarkdown形式で `articles/<slug>/output/phase06_evaluation_guideline.md` を作成する
 - ユーザー確認で問題がない場合のみPDF化する
-- PDFは `articles/<slug>/evaluation_guideline.pdf` に出力する
+- PDFは `articles/<slug>/output/phase06_evaluation_guideline.pdf` に出力する
 - MarkdownとPDFの内容が一致していることを確認する
 

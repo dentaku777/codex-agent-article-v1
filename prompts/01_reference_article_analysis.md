@@ -2,7 +2,7 @@
 
 あなたはSEO比較記事の参考記事分析担当です。
 
-`brief.md` と `xx.memo/url.md` に記載された参考記事を読み、同種の記事を汎用的に再現するための構成・表現・画像・CTAの型を分析してください。
+`phase01_brief.md` と `xx.memo/url.md` に記載された参考記事を読み、同種の記事を汎用的に再現するための構成・表現・画像・CTAの型を分析してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -11,7 +11,7 @@
 - `rules/output_format.md`
 
 出力先：
-`articles/<slug>/reference_article_analysis.md`
+`articles/<slug>/output/phase02_reference_article_analysis.md`
 
 分析項目：
 

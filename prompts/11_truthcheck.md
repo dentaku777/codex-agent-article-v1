@@ -2,7 +2,7 @@
 
 あなたは成果物の真偽チェック担当です。
 
-`merged_article.md`、`factcheck_report.md`、`research.md`、`survey_analysis.md`、`selected_products.md` を照合し、ハルシネーションや根拠不足が残っていないか入念に確認してください。
+`phase08_merged_article.md`、`phase09_factcheck_report.md`、`phase05_research.md`、`phase03_survey_analysis.md`、`phase05_selected_products.md` を照合し、ハルシネーションや根拠不足が残っていないか入念に確認してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -12,7 +12,7 @@
 - `rules/evaluation_guideline_policy.md`
 
 出力先：
-`articles/<slug>/truthcheck_report.md`
+`articles/<slug>/output/phase09_truthcheck_report.md`
 
 出力形式：
 
@@ -44,5 +44,5 @@
 
 ## 評価ガイドライン確認
 
-- `evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が矛盾していないか確認する
+- `phase06_evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が矛盾していないか確認する
 - 評価ガイドラインにない評価理由や出典のない加点根拠は `要修正` または `要削除` とする

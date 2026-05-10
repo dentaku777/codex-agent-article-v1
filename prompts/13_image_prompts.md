@@ -2,7 +2,7 @@
 
 あなたはSEO記事の画像仕様書作成担当です。
 
-`brief.md`、`reference_article_analysis.md`、`outline.md`、`fixed_article.md` を読み、記事で必要な比較画像、図解、イラスト、CTA画像の仕様と画像生成用プロンプトを作成してください。
+`phase01_brief.md`、`phase02_reference_article_analysis.md`、`phase07_outline.md`、`phase09_fixed_article.md` を読み、記事で必要な比較画像、図解、イラスト、CTA画像の仕様と画像生成用プロンプトを作成してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -11,7 +11,7 @@
 - `rules/hallucination_policy.md`
 
 出力先：
-`articles/<slug>/images/image_prompts.md`
+`articles/<slug>/output/phase10_image_prompts.md`
 
 必ず含めること：
 

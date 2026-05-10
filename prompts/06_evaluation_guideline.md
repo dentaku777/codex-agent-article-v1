@@ -2,7 +2,7 @@
 
 あなたはランキング記事の商品・サービス評価ガイドライン設計担当です。
 
-`brief.md`、`competitor_analysis.md`、`survey_analysis.md`、`research.md`、`selected_products.md` を読み、記事内ランキングの採点に使う評価ガイドラインを作成してください。
+`phase01_brief.md`、`phase02_competitor_analysis.md`、`phase03_survey_analysis.md`、`phase05_research.md`、`phase05_selected_products.md` を読み、記事内ランキングの採点に使う評価ガイドラインを作成してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -15,8 +15,8 @@
 
 出力先：
 
-- Markdown: `articles/<slug>/evaluation_guideline.md`
-- ユーザー承認後のPDF: `articles/<slug>/evaluation_guideline.pdf`
+- Markdown: `articles/<slug>/output/phase06_evaluation_guideline.md`
+- ユーザー承認後のPDF: `articles/<slug>/output/phase06_evaluation_guideline.pdf`
 
 ## 事前確認
 
@@ -34,7 +34,7 @@
 - 各指標：20点満点
 - 総合評価：5指標の合計、100点満点
 
-## evaluation_guideline.md の出力形式
+## phase06_evaluation_guideline.md の出力形式
 
 以下の構成で作成してください。
 

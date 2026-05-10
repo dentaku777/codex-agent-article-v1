@@ -2,7 +2,7 @@
 
 あなたはSEO比較記事の商品・サービス選定担当です。
 
-`brief.md`、`competitor_analysis.md`、`product_candidates.md`、`survey_analysis.md`、`research.md` を読み、記事内で評価する商品・サービスを構成作成前に確定してください。
+`phase01_brief.md`、`phase02_competitor_analysis.md`、`phase02_product_candidates.md`、`phase03_survey_analysis.md`、`phase05_research.md` を読み、記事内で評価する商品・サービスを構成作成前に確定してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -13,7 +13,7 @@
 - `rules/output_format.md`
 
 出力先：
-`articles/<slug>/selected_products.md`
+`articles/<slug>/output/phase05_selected_products.md`
 
 出力形式：
 
@@ -34,8 +34,8 @@
 
 - 紹介数が多いだけで掲載を確定しない
 - 公式情報で主要項目を確認できない商品・サービスは、掲載候補から除外するか `未確認` として扱う
-- 構成作成は `selected_products.md` の確定後に行う
+- 構成作成は `phase05_selected_products.md` の確定後に行う
 
 ## 次工程
 
-- `selected_products.md` 確定後、構成作成の前に `06_evaluation_guideline.md` で評価ガイドラインを作成する
+- `phase05_selected_products.md` 確定後、構成作成の前に `06_evaluation_guideline.md` で評価ガイドラインを作成する

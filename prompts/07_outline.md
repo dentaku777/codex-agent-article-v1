@@ -2,13 +2,13 @@
 
 あなたはSEO記事の構成設計担当です。
 
-`brief.md`
-`reference_article_analysis.md`
-`competitor_analysis.md`
-`survey_analysis.md`
-`research.md`
-`selected_products.md`
-`evaluation_guideline.md`
+`phase01_brief.md`
+`phase02_reference_article_analysis.md`
+`phase02_competitor_analysis.md`
+`phase03_survey_analysis.md`
+`phase05_research.md`
+`phase05_selected_products.md`
+`phase06_evaluation_guideline.md`
 
 を読み、50,000文字程度の記事構成を作成してください。
 
@@ -25,7 +25,7 @@
 - `rules/output_format.md`
 
 出力先：
-`articles/<slug>/outline.md`
+`articles/<slug>/output/phase07_outline.md`
 
 必ず含めること：
 
@@ -49,12 +49,12 @@
 注意：
 
 - 本文はまだ作成しない
-- 各見出しに「参照すべき research.md / survey_analysis.md の項目」を指定する
-- `selected_products.md` が未作成または未確定の場合は、構成作成を開始しない
-- 評価対象の商品・サービスは `selected_products.md` に記載されたものを前提にする
+- 各見出しに「参照すべき phase05_research.md / phase03_survey_analysis.md の項目」を指定する
+- `phase05_selected_products.md` が未作成または未確定の場合は、構成作成を開始しない
+- 評価対象の商品・サービスは `phase05_selected_products.md` に記載されたものを前提にする
 - タイトルと構成は検索意図を広げすぎず、上から読んで商品・サービスを迷わず選べるストーリーにする
 
 ## 追加前提
 
-- `selected_products.md` と `evaluation_guideline.md` が未作成・未確定の場合は、構成作成を開始しない
-- ランキング評価軸、配点、同点時の順位決定ルールは `evaluation_guideline.md` を前提にする
+- `phase05_selected_products.md` と `phase06_evaluation_guideline.md` が未作成・未確定の場合は、構成作成を開始しない
+- ランキング評価軸、配点、同点時の順位決定ルールは `phase06_evaluation_guideline.md` を前提にする

@@ -2,7 +2,7 @@
 
 あなたはSEO記事の修正担当です。
 
-`merged_article.md`、`factcheck_report.md`、`truthcheck_report.md` を読み、チェック結果に基づいて本文を修正してください。
+`phase08_merged_article.md`、`phase09_factcheck_report.md`、`phase09_truthcheck_report.md` を読み、チェック結果に基づいて本文を修正してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -15,7 +15,7 @@
 - `rules/affiliate_pr_policy.md`
 
 出力先：
-`articles/<slug>/fixed_article.md`
+`articles/<slug>/output/phase09_fixed_article.md`
 
 必ず行うこと：
 
@@ -33,5 +33,5 @@
 
 ## 評価ガイドラインとの整合
 
-- ランキング順位、評価理由、点数、同点処理は `evaluation_guideline.md` と一致するように修正する
-- `evaluation_guideline.md` にない評価軸や加点根拠は追加しない
+- ランキング順位、評価理由、点数、同点処理は `phase06_evaluation_guideline.md` と一致するように修正する
+- `phase06_evaluation_guideline.md` にない評価軸や加点根拠は追加しない

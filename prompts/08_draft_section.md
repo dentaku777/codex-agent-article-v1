@@ -2,7 +2,7 @@
 
 あなたはSEO記事の本文作成担当です。
 
-`outline.md` に従い、指定されたセクションだけを作成してください。
+`phase07_outline.md` に従い、指定されたセクションだけを作成してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -22,8 +22,8 @@
 
 - 一度に全文を書かない
 - セクション単位で作成する
-- 料金・条件・スペックは `research.md` の出典に基づく
-- アンケート由来の内容は `survey_analysis.md` の範囲に限定する
+- 料金・条件・スペックは `phase05_research.md` の出典に基づく
+- アンケート由来の内容は `phase03_survey_analysis.md` の範囲に限定する
 - 出典不明の情報は断定しない
 - 表にするべき情報はMarkdown表で作る
 - 読者にわかりやすく、自然な日本語で書く
@@ -33,9 +33,9 @@
 - 結論・選び方・案件紹介では、アンケート結果や著者の実体験コメントを文脈に合わせて入れる
 
 出力先：
-`articles/<slug>/draft/`
+`articles/<slug>/output/phase08_draft_<section>.md`
 
 ## 評価ガイドライン参照
 
-- ランキング順位、評価理由、総合点、指標別点数を書く場合は `evaluation_guideline.md` の採点基準と一致させる
-- `evaluation_guideline.md` にない評価軸や加点理由を本文で追加しない
+- ランキング順位、評価理由、総合点、指標別点数を書く場合は `phase06_evaluation_guideline.md` の採点基準と一致させる
+- `phase06_evaluation_guideline.md` にない評価軸や加点理由を本文で追加しない

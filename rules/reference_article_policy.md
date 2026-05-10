@@ -22,5 +22,5 @@
 ## 注意
 
 - 参考記事は一次情報ではない
-- 参考記事から得た示唆は `reference_article_analysis.md` に抽象化して記録する
+- 参考記事から得た示唆は `phase02_reference_article_analysis.md` に抽象化して記録する
 - 事実情報は必ず公式情報または信頼できる一次情報で確認する

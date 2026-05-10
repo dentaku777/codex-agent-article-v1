@@ -13,18 +13,18 @@
 - `rules/calculation_policy.md`
 - `rules/affiliate_pr_policy.md`
 
-- research.md
-- survey_analysis.md
-- selected_products.md
-- evaluation_guideline.md
-- merged_article.md
-- draft/*.md
+- phase05_research.md
+- phase03_survey_analysis.md
+- phase05_selected_products.md
+- phase06_evaluation_guideline.md
+- phase08_merged_article.md
+- phase08_draft_<section>.md
 - 表
 - CTA
 - FAQ
 
 出力先：
-`articles/<slug>/factcheck_report.md`
+`articles/<slug>/output/phase09_factcheck_report.md`
 
 出力形式：
 
@@ -50,7 +50,7 @@
 - アンケート由来の記述
 - 外部リンクの妥当性
 - 比較表と本文の整合性
-- selected_products.md と本文内ランキング対象の一致
+- phase05_selected_products.md と本文内ランキング対象の一致
 
 注意：
 
@@ -60,5 +60,5 @@
 
 ## 評価ガイドライン確認
 
-- `evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が一致しているか確認する
+- `phase06_evaluation_guideline.md` とランキング評価軸・配点・総合点・同点処理が一致しているか確認する
 - 評価ガイドラインにない加点理由や順位根拠が本文に出ている場合は `要修正` とする

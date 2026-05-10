@@ -13,8 +13,8 @@ WordPressブロックエディタに貼り付け可能なHTML/ブロックコー
 
 | テンプレート | 出力先 | 参照ルール |
 |---|---|---|
-| SWELL | `articles/<slug>/final/swell_blocks.html` | `rules/swell_default_blocks.md`、`rules/swell_custom_patterns.md` |
-| その他 | `articles/<slug>/final/<template>_blocks.html` | 専用ルールファイルを追加して参照 |
+| SWELL | `articles/<slug>/output/phase11_swell_blocks.html` | `rules/swell_default_blocks.md`、`rules/swell_custom_patterns.md` |
+| その他 | `articles/<slug>/output/phase11_<template>_blocks.html` | 専用ルールファイルを追加して参照 |
 
 ## 共通変換対象
 
@@ -36,6 +36,6 @@ WordPressブロックエディタに貼り付け可能なHTML/ブロックコー
 
 ## 品質確認
 
-- `fixed_article.md`、`factcheck_report.md`、`truthcheck_report.md` を確認してから変換する
+- `phase09_fixed_article.md`、`phase09_factcheck_report.md`、`phase09_truthcheck_report.md` を確認してから変換する
 - 未確認情報、要修正、要削除が残る場合は変換前に警告する
 - 表、本文、画像仕様、CTAの数値や順位を一致させる

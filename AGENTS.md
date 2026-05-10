@@ -16,8 +16,9 @@
 - SEO上位表示を狙う主キーワードは、エージェント開始時にユーザーが指定する
 - 参考記事がある場合は、記事構成、記事内容、比較表、ランキング、画像、CTA、FAQの型を分析する
 - 商品・サービスの利用者アンケートがある場合は、構成作成前に分析し、読者ニーズ、比較軸、不安、選定理由、口コミ要素に反映する
-- `xx.memo/manual.docx` の記事制作ノウハウは `rules/content_quality_manual_policy.md` に整理しているため、参考記事分析、構成、本文、画像仕様の工程で必ず参照する
-- 必ず「brief確認 → 参考記事分析 → 競合記事収集 → 競合分析 → アンケート分析 → 公式情報リサーチ → 評価対象サービス決定 → 評価ガイドライン作成 → 構成 → セクション別執筆 → 本文結合 → ファクトチェック → 真偽チェック → 修正 → 画像仕様・画像プロンプト作成 → テンプレート変換」の順で進める
+- `xx.memo/manual/manual.md` と `rules/content_quality_manual_policy.md` は、毎回分析する参考記事ではなく、記事制作エージェントの常設制作標準として扱う
+- 追加の参考記事URLがユーザーから指定された場合のみ、個別の参考記事分析を行う
+- 必ず「フェーズ1: brief確認・制作標準確認 → フェーズ2: 競合記事収集・競合分析 → フェーズ3: アンケート分析 → フェーズ4: Xポストリサーチ（指定時のみ） → フェーズ5: 公式情報リサーチ・評価対象サービス決定 → フェーズ6: 評価ガイドライン作成 → フェーズ7: 構成作成・構成比較検証 → フェーズ8: セクション別執筆・本文結合 → フェーズ9: ファクトチェック・真偽チェック・修正・Fix後記事比較検証 → フェーズ10: 画像仕様・画像プロンプト作成 → フェーズ11: テンプレート変換」の順で進める
 - 料金、キャンペーン、スペック、契約条件、解約条件は公式サイトを最優先する
 - 出典URLのない事実は断定しない
 - 不明点は「未確認」と明記する
@@ -35,39 +36,50 @@
 - SEO観点で有効な外部リンクとして、政府機関、公的機関、業界団体、統計資料などの利用可否を調査する
 - 競合記事がどの外部リンクを使っているかも分析する
 - Web検索・Webフェッチ・検索API連携は `rules/web_fetch_policy.md` に従い、検索結果の発見、ページ本文の確認、公式情報の記録を分けて扱う
+- 競合分析後は、競合記事での商品・サービス評価状況について、ユーザー確認を受けてから次工程へ進む
+- アンケート分析後は、アンケート結果から出力される傾向・示唆について、ユーザー確認を受けてから次工程へ進む
+- 構成作成後は、構成の順番、過不足、導線について、ユーザー確認を受けてから本文作成へ進む
+- Xポストリサーチは、ユーザーが事前に実施を指定した場合のみ行う。商品・サービスの口コミ情報として、ポストURL、投稿アカウント情報、ポスト内容を取得し、公式アカウントや同一ユーザー重複を除外する
 - ファクトチェック前の本文を最終成果物にしない
 - ファクトチェック後に、成果物全体の真偽チェックを別工程で行う
+- フェーズ7では、競合記事および常設制作標準と比べた構成の優位性・独自性・不足点を比較検証し、修正が必要な場合は `phase07_outline_comparison_review.md` に改善案をMarkdown形式で出力する
+- フェーズ9では、画像以外の記事内容がFixした段階で、競合記事、常設制作標準、SEO観点、AIO観点から比較検証し、修正が必要な場合は `phase09_final_article_comparison_review.md` に改善案をMarkdown形式で出力する
 - 画像は記事本文作成後に、記事内容に合う比較画像、図解、イラスト、CTA画像の仕様書と画像生成用プロンプトを作成する
 - ランキング順位、実質月額、比較表の数値は、必ず根拠と計算式を残す
 - 各工程では該当する `rules/` 配下のルールを先に確認する
+- ファイルの作成・更新時は `rules/encoding_policy.md` に従い、文字コードを必ず明示してUTF-8で保存する
 - 重要工程では `rules/claude_cli_review_policy.md` に従い、必要に応じてClaude CLI二次チェック用プロンプトを提示する。Claude APIは原則使用せず、ユーザーがClaude MaxプランのCLIで手動実行する
+- リサーチ量が多い工程では、ユーザーが明示的に許可または依頼した場合に限り、`rules/subagent_parallel_policy.md` に従ってサブエージェントへ並行分担できる
 
 ## ファイル運用
 
-記事ごとに `articles/<slug>/` 配下で管理する。
+記事ごとに `articles/<slug>/` 配下で管理する。各フェーズの成果物は原則 `articles/<slug>/output/` 直下へ保存し、ファイル名に `phaseXX_` 接頭辞を付ける。
 
 基本ファイル：
 
-- `brief.md`: 記事要件
-- `reference_article_analysis.md`: 参考記事の構成・表現・画像・CTA分析
-- `competitor_targets.md`: 競合記事収集リスト
-- `competitor_analysis.md`: 競合分析
-- `survey_analysis.md`: 利用者アンケート分析
-- `product_candidates.md`: 競合分析から抽出した商品・サービス候補
-- `research.md`: 公式情報・一次情報の調査結果
-- `selected_products.md`: 記事内で評価する商品・サービスの確定リスト
-- `evaluation_guideline.md`: ランキング評価指標・採点基準・総合評価計算式
-- `evaluation_guideline.pdf`: ユーザー確認後に出力する評価ガイドラインPDF
-- `outline.md`: 記事構成
-- `draft/*.md`: セクション別本文
-- `merged_article.md`: 結合後の本文
-- `factcheck_report.md`: ファクトチェック結果
-- `truthcheck_report.md`: 成果物全体の真偽チェック結果
-- `fixed_article.md`: ファクトチェック後に修正した本文
-- `claude_review_notes.md`: Claude CLI二次チェックの依頼プロンプト、回答要約、反映判断ログ
-- `final/swell_blocks.html`: SWELL/WordPress投入用コード。現状の標準出力
-- `final/<template>_blocks.html`: 将来、SWELL以外のテンプレートへ変換する場合の出力
-- `images/image_prompts.md`: 画像仕様書・画像生成プロンプト
+- `output/phase01_brief.md`: 記事要件
+- `output/phase02_reference_article_analysis.md`: 追加参考記事が指定された場合の構成・表現・画像・CTA分析
+- `output/phase02_competitor_targets.md`: 競合記事収集リスト
+- `output/phase02_competitor_analysis.md`: 競合分析
+- `output/phase02_product_candidates.md`: 競合分析から抽出した商品・サービス候補
+- `output/phase03_survey_analysis.md`: 利用者アンケート分析
+- `output/phase04_x_post_research.md`: Xポスト口コミリサーチ結果。実施指定がある場合のみ作成
+- `output/phase05_research.md`: 公式情報・一次情報の調査結果
+- `output/phase05_selected_products.md`: 記事内で評価する商品・サービスの確定リスト
+- `output/phase06_evaluation_guideline.md`: ランキング評価指標・採点基準・総合評価計算式
+- `output/phase06_evaluation_guideline.pdf`: ユーザー確認後に出力する評価ガイドラインPDF
+- `output/phase07_outline.md`: 記事構成
+- `output/phase07_outline_comparison_review.md`: 構成比較検証と改善案
+- `output/phase08_draft_<section>.md`: セクション別本文
+- `output/phase08_merged_article.md`: 結合後の本文
+- `output/phase09_factcheck_report.md`: ファクトチェック結果
+- `output/phase09_truthcheck_report.md`: 成果物全体の真偽チェック結果
+- `output/phase09_fixed_article.md`: ファクトチェック後に修正した本文
+- `output/phase09_final_article_comparison_review.md`: Fix後記事の比較検証と改善案
+- `output/phase10_image_prompts.md`: 画像仕様書・画像生成プロンプト
+- `output/phase11_swell_blocks.html`: SWELL/WordPress投入用コード。現状の標準出力
+- `output/phase11_<template>_blocks.html`: 将来、SWELL以外のテンプレートへ変換する場合の出力
+- `output/phase_meta_claude_review_notes.md`: Claude CLI二次チェックの依頼プロンプト、回答要約、反映判断ログ
 
 ## prompts と rules の役割
 

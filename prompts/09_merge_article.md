@@ -2,7 +2,7 @@
 
 あなたはSEO記事の編集・結合担当です。
 
-`outline.md` と `draft/*.md` を読み、セクション別本文を1本の記事として結合してください。
+`phase07_outline.md` と `phase08_draft_<section>.md` を読み、セクション別本文を1本の記事として結合してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -16,11 +16,11 @@
 - `rules/output_format.md`
 
 出力先：
-`articles/<slug>/merged_article.md`
+`articles/<slug>/output/phase08_merged_article.md`
 
 必ず行うこと：
 
-- `outline.md` の見出し順に並べる
+- `phase07_outline.md` の見出し順に並べる
 - 見出し階層を h2/h3 相当で統一する
 - 重複する説明を整理する
 - 比較表、ランキング、FAQ、CTAの位置を整える
@@ -30,10 +30,10 @@
 注意：
 
 - 新しい事実をこの工程で追加しない
-- 料金、キャンペーン、条件、スペックは `research.md` にない内容を断定しない
+- 料金、キャンペーン、条件、スペックは `phase05_research.md` にない内容を断定しない
 - 結合後の記事を最終成果物にしない
 
 ## 評価ガイドライン参照
 
-- ランキング、評価理由、スコア、同点処理は `evaluation_guideline.md` と矛盾しないように統合する
-- 下書き間で評価軸の名称や点数表記が揺れている場合は、`evaluation_guideline.md` に合わせる
+- ランキング、評価理由、スコア、同点処理は `phase06_evaluation_guideline.md` と矛盾しないように統合する
+- 下書き間で評価軸の名称や点数表記が揺れている場合は、`phase06_evaluation_guideline.md` に合わせる

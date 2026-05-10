@@ -7,7 +7,7 @@ Codexを使ってSEO比較記事・レビュー記事・ランキング記事を
 詳細な作業フローと直列・並列工程の可視化は [docs/article_workflow.md](docs/article_workflow.md) を参照してください。
 
 1. 開始時にSEO上位表示を狙う主キーワードを指定
-2. `brief.md` を作成
+2. `articles/<slug>/output/phase01_brief.md` を作成
 3. 参考記事の構成・内容・画像・CTAを分析
 4. 指定キーワードと類似キーワードで競合記事20件を収集
 5. 競合分析
@@ -29,7 +29,7 @@ Codexを使ってSEO比較記事・レビュー記事・ランキング記事を
 
 ## 主要フォルダ
 
-- `articles/`: 記事ごとの作業フォルダ
+- `articles/`: 記事ごとの作業フォルダ。各フェーズの成果物は `articles/<slug>/output/phaseXX_...` 形式で保存する
 - `prompts/`: Codexへの作業指示
 - `rules/`: 記事制作・ファクトチェック・評価・テンプレート変換ルール
 - `scripts/`: 自動化スクリプト

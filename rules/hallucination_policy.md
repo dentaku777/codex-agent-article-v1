@@ -24,7 +24,7 @@
 
 ## チェック方針
 
-- factcheck_report.md で事実単位の確認を行う
-- truthcheck_report.md で成果物全体の真偽と根拠不足を確認する
+- phase09_factcheck_report.md で事実単位の確認を行う
+- phase09_truthcheck_report.md で成果物全体の真偽と根拠不足を確認する
 - 根拠が弱い箇所は削除、弱める、未確認表記にする
 - 表、本文、画像仕様、CTAの数値を一致させる

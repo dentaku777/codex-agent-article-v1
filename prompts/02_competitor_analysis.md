@@ -2,7 +2,7 @@
 
 あなたはSEO記事の競合分析担当です。
 
-エージェント開始時に指定された主キーワードと、`brief.md` に記載された類似キーワードをもとに、上位表示される競合記事を収集・分析してください。
+エージェント開始時に指定された主キーワードと、`phase01_brief.md` に記載された類似キーワードをもとに、上位表示される競合記事を収集・分析してください。
 
 作業前に必ず以下のルールを確認してください。
 
@@ -23,18 +23,18 @@
 
 ## 出力先
 
-- 競合記事収集リスト：`articles/<slug>/competitor_targets.md`
-- 競合分析：`articles/<slug>/competitor_analysis.md`
-- 評価対象サービス候補：`articles/<slug>/product_candidates.md`
+- 競合記事収集リスト：`articles/<slug>/output/phase02_competitor_targets.md`
+- 競合分析：`articles/<slug>/output/phase02_competitor_analysis.md`
+- 評価対象サービス候補：`articles/<slug>/output/phase02_product_candidates.md`
 
-## competitor_targets.md の出力形式
+## phase02_competitor_targets.md の出力形式
 
 | 優先度 | 検索キーワード | 検索順位 | タイトル | URL | ドメイン | 採用/除外 | 除外理由 |
 |---|---:|---:|---|---|---|---|---|
 
 収集時は、検索日時、検索手段、検索クエリを作業メモまたは表の備考に残す。Tavilyなどの検索APIを使った場合も、検索結果は候補発見用として扱い、記事内容や順位は対象ページを取得して確認する。
 
-## competitor_analysis.md の分析項目
+## phase02_competitor_analysis.md の分析項目
 
 - タイトル
 - URL
@@ -63,7 +63,7 @@
 - AIO観点での評価
 - 自記事で勝てる差別化ポイント
 
-## product_candidates.md の出力形式
+## phase02_product_candidates.md の出力形式
 
 | 商品・サービス名 | 掲載候補 | 競合記事での紹介数 | 上位5記事での紹介有無 | 候補理由 | 公式確認の必要項目 | 備考 |
 |---|---|---:|---|---|---|---|
