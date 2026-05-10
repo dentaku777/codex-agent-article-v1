@@ -10,6 +10,7 @@
 `phase05_faq_candidates.md`
 `phase05_selected_products.md`
 `phase06_evaluation_guideline.md`
+`phase07_scoring_table.md`（未作成の場合は、本フェーズ内で先に作成）
 
 を読み、50,000文字程度の記事構成を作成してください。
 
@@ -27,7 +28,9 @@
 - `rules/output_format.md`
 
 出力先：
-`articles/<slug>/output/phase07_outline.md`
+
+- 採点表: `articles/<slug>/output/phase07_scoring_table.md`
+- 記事構成: `articles/<slug>/output/phase07_outline.md`
 
 必ず含めること：
 
@@ -43,6 +46,8 @@
 - 必要なFAQ
 - 採用するFAQ/Q&A、除外するFAQ/Q&A、除外理由
 - ランキング評価軸
+- 評価ガイドラインに基づく各スクールの指標別点数、総合点、順位
+- 各点数の根拠URL、未確認項目、減点理由
 - ランキング個別説明数
 - 実質月額の計算方針
 - 外部リンクを入れる候補箇所
@@ -53,6 +58,9 @@
 注意：
 
 - 本文はまだ作成しない
+- `phase07_scoring_table.md` が未作成の場合は、構成作成前に `phase06_evaluation_guideline.md` に基づいて作成する
+- `phase07_scoring_table.md` では、公式確認済み情報のみ加点根拠にし、競合記事情報・未確認情報は加点しない
+- `phase07_outline.md` のランキング表・個別紹介・目的別おすすめは、`phase07_scoring_table.md` の順位・点数・注意点と矛盾させない
 - 各見出しに「参照すべき phase05_research.md / phase03_survey_analysis.md の項目」を指定する
 - FAQ/Q&Aは `phase05_faq_candidates.md` に基づいて選定し、競合記事由来のFAQは公式情報または公的情報で確認できる範囲に限定する
 - 記事末尾FAQだけでなく、選び方、ランキング個別説明、CTA直前など、読者の疑問が発生する箇所にも配置を検討する
@@ -64,3 +72,4 @@
 
 - `phase05_selected_products.md` と `phase06_evaluation_guideline.md` が未作成・未確定の場合は、構成作成を開始しない
 - ランキング評価軸、配点、同点時の順位決定ルールは `phase06_evaluation_guideline.md` を前提にする
+- 実際の採点結果、順位、減点理由、未確認項目は `phase07_scoring_table.md` に残す
